@@ -1,4 +1,4 @@
-<font size =6> **The git is used to show the code for homework4 question2(adapted from cs349 code)**</font>    
+<font size =6> **The git is used to show the code for homework4 Part2 (adapted from cs349 code)**</font>    
 <font size="5">**`__init__.py`**</font>  
 The code in __init__.py is used register the custom environment.  
 <font size = 5> **`multi_armed_bandit.py`** </font>  
