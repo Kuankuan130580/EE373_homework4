@@ -142,8 +142,7 @@ class MultiArmedBandit:
             the number of steps taken within the episode.
         """
         # reset environment before your first action
-        env.reset()
-        
+        env.reset()        
         state=[]
         actions=[]
         rewards=[]

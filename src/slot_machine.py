@@ -12,7 +12,6 @@ class SlotMachine:
     def pull(self):
         return np.random.normal(loc=self.mean, scale=self.std_dev)
 
-
 class SlotMachines(gymnasium.Env):
     """
     Slot machine reinforcement learning environment for OpenAI Gym
@@ -32,7 +31,6 @@ class SlotMachines(gymnasium.Env):
     def seed(self, seed=None):
         """
         Seed the environment's random number generator
-
         Arguments:
           seed - (int) The random number generator seed.
         """
