@@ -12,7 +12,7 @@ from multi_armed_bandit import MultiArmedBandit
 # from np.random import rng
 # rng.seed()
 
-env = gymnasium.make('SlotMachines-v0',mean_list=[0.1,0.05],std_dev=np.sqrt([0.1,0.3]))
+env = gymnasium.make('SlotMachines-v0',mean_list=[0.05,0.1],std_dev=np.sqrt([0.1,0.3]))
 env.seed(0)
 means = np.array([m.mean for m in env.machines])
 print(means)
